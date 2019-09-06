@@ -4,6 +4,7 @@
   "description": "1. Install Node.js (v8.1.4 or above) \t* Mac/Linux: Install nvm from https://github.com/creationix/nvm, then run `nvm use` from your terminal \t* Windows: Download and install Node.js from https://nodejs.org/en/download/",
   "main": "index.js",
   "scripts": {
+    "spec": "mocha ./test-helper.js **/*.spec.js",
     "test": "mocha ./test-helper.js **/*.spec.js",
     "tdd": "mocha ./test-helper.js **/*.spec.js -w"
   },
