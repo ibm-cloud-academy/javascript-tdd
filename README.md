@@ -14,11 +14,12 @@ You will need the following installed
 * Git command line
 
 #### Clone the repo, install and run the tests:
-To execute the tests perform the following in a terminal window
+To setup and execute the tests perform the following in a terminal window
 ````
 git clone git@github.com:ibm-cloud-academy/javascript-tdd.git
 cd javascript-tdd
-npm install
+npm install mocha --save-dev
+npm install should --save-dev
 npm test
 ````
 

@@ -13,9 +13,5 @@
     "url": "git@github.ibm.com:vicleung/ibm-cloud-garage-tdd.git"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "mocha": "^6.2.0",
-    "should": "^13.2.3"
-  }
+  "license": "ISC"
 }
